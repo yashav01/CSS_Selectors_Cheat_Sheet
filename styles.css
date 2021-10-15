@@ -1,9 +1,12 @@
 body {
     font-family: sans-serif;
+    background: rgba(21, 157, 255, 0.38);
 }
 table {
     border-collapse: collapse;
     border: 1px solid black;
+    background: rgb(179,108,221);
+    background: linear-gradient(243deg, rgba(179,108,221,1) 0%, rgba(73,174,167,0.616650390625) 53%, rgba(0,212,255,1) 100%);
 }
 th {
     border: 1px solid black;
@@ -13,7 +16,7 @@ td {
     font-size: 12px;
 }
 .attribute{
-    background-color: rgba(192, 192, 192, 0.589);
+    background-color: rgba(226, 221, 221, 0.589);
     font-style: italic;
 }
 
@@ -22,4 +25,17 @@ td {
     background-color: rgb(33, 30, 47);
     border-color: snow;
     border-right:rgb(33, 30, 47);
+}
+h1 {
+    text-align: center;
+
+}
+h3 {
+    text-align: center;
+}
+.tableHeaders {
+    background-color: rgba(141, 45, 158, 0.322)
+}
+.topicColor {
+    background-color: rgba(117, 149, 202, 0.472);
 }
